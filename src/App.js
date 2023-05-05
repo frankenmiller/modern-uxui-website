@@ -1,5 +1,4 @@
 import React from 'react'
-
 import './App.css';
 import {Footer, Features, Possibility, Header, WhatGPT3, Blog} from './containers';
 import Article from './components/article/Article';
