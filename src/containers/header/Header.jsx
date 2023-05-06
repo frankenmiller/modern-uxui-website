@@ -20,9 +20,9 @@ const Header = () => {
           <img src={people} alt="bubble img's for ppl's faces" />
           <p>1600 people have visited in the last 24 hours</p>
         </div>
-        {/* <div className='gpt3__header-image'>
+        <div className='gpt3__header-image'>
           <img src={ai} alt="creepy looking ai generated face" />
-        </div> */}
+        </div>
       </div>
     </div>
   )
