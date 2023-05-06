@@ -7,9 +7,9 @@ import ai from '../../assets/ai.png';
 const Header = () => {
   return (
     <div className='gtp3__header section__padding' id='home'>
-      <div className='gpt__header-content'>
+      <div className='gpt3__header-content'>
         <h1 className='gradient__text'>
-          FRANKENMILLER's Modern UX-UI Website Build in ReactJS using GPT-3 OpenAI and Figma Software
+          Let's Build Something Amazing with GPT-3 OpenAI
         </h1>
         <div className='gpt3__header-content__input'>
           <input type="email" placeholder='Your Email Address' />
