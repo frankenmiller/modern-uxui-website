@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css';
 import people from '../../assets/people.png';
-import {ai} from '../../assets/ai.png';
+import ai from '../../assets/ai.png';
 
 
 const Header = () => {
@@ -19,6 +19,9 @@ const Header = () => {
         <div className='gpt3__header-content__people'>
           <img src={people} alt="bubble img's for ppl's faces" />
           <p>1600 people have visited in the last 24 hours</p>
+        </div>
+        <div className='gpt3__header-image'>
+          <img src={ai} alt="creepy looking ai generated face" />
         </div>
       </div>
     </div>
