@@ -4,7 +4,13 @@ import './header.css';
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className='gtp3__header section__padding' id='home'>
+      <div className='gpt__header-content'>
+        <h1 className='gradient__text'>
+          FRANKENMILLER's Modern UX-UI Website Build in ReactJS using GPT-3 OpenAI and Figma Software
+        </h1>
+      </div>
+    </div>
   )
 }
 
