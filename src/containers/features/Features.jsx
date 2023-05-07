@@ -26,7 +26,7 @@ const Features = () => {
   return (
     <div className='gpt3__features section__padding' id='features'>
       <div className="gpt3__features-heading">
-        <h1 className='gradient__text'>The Future is Now, you just need to realize it. Step into the future today and makie it happen</h1>
+        <h1 className='gradient__text'>The Future is Now, you just need to realize it. Step into the future today and make it happen</h1>
         <p>REQUEST EARLY ACCESS TO GET STARTED</p>
       </div>
       <div className="gpt3__features-container">
