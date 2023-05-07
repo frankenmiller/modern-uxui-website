@@ -80,7 +80,7 @@
     background: var(--color-footer);
     padding: 2rem;
     position: absolute;
-    top: 7.5px;
+    top: 20px;
     right: -32px;
     margin-top: 1rem;
     min-width: 210px;
@@ -123,5 +123,8 @@
     }
     .gpt3__navbar-menu_container-links-sign {
         display: block;
+    }
+    .gpt3__navbar-menu_container {
+        top: 7.5px;
     }
 }
