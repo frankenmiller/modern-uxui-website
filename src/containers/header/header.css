@@ -1,6 +1,5 @@
 .gpt3__header {
     display: flex;
-    flex-direction: row;
 }
 
 .gpt3__header-content {
@@ -127,5 +126,32 @@
     .gpt3__header-content p {
         font-size: 16px;
         line-height: 24px;       
+    }
+    .gpt3__header-content__people {
+        flex-direction: column;
+    }
+    .gpt3__header-content__people p {
+        margin: 10px 0 0 0;
+    }
+    .gpt3__header-content__input input, 
+    .gpt3__header-content__input button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+/* iPhone display */
+@media screen and (max-width: 490px) {
+    .gpt3__header-content h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .gpt3__header-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .gpt3__header-content__input input, 
+    .gpt3__header-content__input button {
+        font-size: 12px;
+        line-height: 16px;
     }
 }
